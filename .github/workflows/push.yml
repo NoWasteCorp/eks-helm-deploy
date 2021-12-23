@@ -16,5 +16,5 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: peymanmo/eks-helm-deploy
+          repository: konkerlabs/konker-registry:eks-helm-deploy-v1
           tag_with_ref: true
