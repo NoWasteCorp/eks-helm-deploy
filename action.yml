@@ -50,7 +50,7 @@ inputs:
 
 runs:
     using: 'docker'
-    image: 'docker://konkerlabs/konker-registry:eks-helm-deploy-v1'
+    image: 'docker://konkerlabs/concourse-eks-helm3-resource:eks-helm-deploy-v1'
     env:
         AWS_REGION: ${{ inputs.aws-region }}
         AWS_SECRET_ACCESS_KEY: ${{ inputs.aws-secret-access-key }}
